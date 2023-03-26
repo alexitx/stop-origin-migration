@@ -498,9 +498,6 @@ if ($Decision -eq -1) {
             # Delete temporary installer archive
             Remove-Item -Path $InstallerArchive -Force -ErrorAction SilentlyContinue
 
-            Write-Host "Paused"
-            Read-Host
-
             Write-Host "Verifying installer integrity"
 
             $ComputedInstallerHash = (Get-FileHash -Path $TempInstallerPath -Algorithm SHA256).Hash
