@@ -1,0 +1,31 @@
+# Visual Studio Code
+.vscode/*
+!.vscode/launch.json
+!.vscode/debug.ps1
+
+# Binary files
+*.db
+*.dll
+*.exe
+*.jar
+*.msi
+*.so
+
+# Archives
+*.7z
+*.br
+*.bz2
+*.gz
+*.lz
+*.lz4
+*.lzma
+*.rar
+*.tar
+*.tbz2
+*.tgz
+*.tlz
+*.txz
+*.xz
+*.zip
+*.zipx
+*.zst

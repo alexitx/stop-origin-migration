@@ -1,0 +1,55 @@
+# Images
+*.apng binary
+*.bmp binary
+*.eps binary
+*.gif binary
+*.ico binary
+*.jfif binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.svg binary
+*.tga binary
+*.tif binary
+*.tiff binary
+*.webp binary
+
+# Archives
+*.7z binary
+*.br binary
+*.bz2 binary
+*.gz binary
+*.lz binary
+*.lz4 binary
+*.lzma binary
+*.rar binary
+*.tar binary
+*.tbz2 binary
+*.tgz binary
+*.tlz binary
+*.txz binary
+*.xz binary
+*.zip binary
+*.zipx binary
+*.zst binary
+
+# Scripts
+*.bash text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.fish text eol=lf
+*.ps1 text eol=crlf
+*.sh text eol=lf
+*.zsh text eol=lf
+
+# Text files
+*.cfg text eol=lf
+*.conf text eol=lf
+*.hcl text eol=lf
+*.ini text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
