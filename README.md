@@ -6,8 +6,6 @@
   A comprehensive guide on how to configure and install Origin without being forced to migrate to the new EA app
 </p>
 
-> **Note**: If you would like to help translate this guide in other languages, go to [contributing](#contributing).
-
 
 ## Table of contents
 
@@ -39,6 +37,8 @@ This guide focuses on providing clear and user-friendly instructions on how to i
 migrating. It is not affiliated with EA in any way.
 
 Migration workaround by [p0358][p0358].
+
+> **Note**: If you would like to help translate this guide in other languages, go to [contributing](#contributing).
 
 
 ## Preparation
