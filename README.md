@@ -6,6 +6,8 @@
   A comprehensive guide on how to configure and install Origin without being forced to migrate to the new EA app
 </p>
 
+> **Note**: If you would like to help translate this guide in other languages, go to [contributing](#contributing).
+
 
 ## Table of contents
 
@@ -210,6 +212,21 @@ sending your data in the background.
 
 That's why it is strongly recommended to purge the EA app and all of its settings, files and cache from your system
 completely, and instead use Origin while it still works.
+
+
+## Contributing
+
+You are welcome to contribute and make this project better. Make sure to follow the existing code style, keep your code
+well-formatted and consistent, and test your changes. If you have any questions or proposals, feel free to ask for
+feedback at any time.
+
+The current priority is to make this guide available in more languages. If you're able and would like to translate the
+README page:
+
+1. Fork the repository
+2. Create a copy of `README.md` with the name `README.<lang>.md` where `<lang>` is the language code, e.g. `README.bg.md`
+3. Translate the page and commit your changes
+4. Open a pull request to this repository
 
 
 ## License
