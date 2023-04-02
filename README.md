@@ -24,12 +24,13 @@
   - [Mandatory background processes](#mandatory-background-processes)
   - [Concerning network traffic](#concerning-network-traffic)
   - [Conclusion](#conclusion)
+- [Contributing](#contributing)
 - [License](#license)
 
 
 ## About
 
-Users of the Origin app are forced to migrate to the EA app, the successor of Origin. It's broken beyond usability and
+Users of the Origin app are forced to migrate to the EA app - the successor of Origin. It's broken beyond usability and
 it forces you to migrate no matter what. Origin is not flawless either, but it was light years better than what we have
 now. Read about [what's wrong with the EA app](#whats-wrong-with-the-ea-app).
 
@@ -60,7 +61,7 @@ If you don't want or are unable to download and run a PowerShell script, feel fr
 [manual setup](#manual-setup) instead.
 
 1. [Download the script stop-origin-migration.ps1 by right-clicking this link][stop-origin-migration.ps1] and clicking
-  "Save Link As"
+  "Save link as"
 2. Save the script to an easily accessible location, such as your Desktop
 3. Right-click the script and click "Run with PowerShell"
 4. Click "Yes" if an administrator prompt pops up
@@ -90,7 +91,7 @@ setup](#automatic-setup-recommended) instead.
 
     If the file exists and is not empty:
 
-    1. Scroll to the end of the file
+    1. Scroll down to the end of the file
 
     2. Right before the closing tag (`</Settings>`) insert the following lines:
         ```xml
@@ -127,9 +128,9 @@ setup](#automatic-setup-recommended) instead.
 5. Download the last known stable version 10.5.119.52718 of Origin from [here][origin-download-external] or
   [here][origin-download-local]
 
-    Make sure you download "OriginSetup" instead of "OriginSetupThin". The "full" setup is an offline installer that
-    contains the whole application, while the "thin" setup is an online installer that downloads the application
-    directly from EA during installation, which might result in installing newer, undesired version.
+    Make sure you download `OriginSetup`, also known as "full", instead of `OriginSetupThin`. The "full" setup is an
+    offline installer that contains the whole application, while the "thin" setup is an online installer that downloads
+    the application directly from EA during installation, which might result in installing newer, undesired version.
 
     For advanced users - the file `OriginSetup-10.5.119.52718.exe` should have the following SHA-256 hash:
     `ED6EE5174F697744AC7C5783FF9021DA603BBAC42AE9836CD468D432CADC9779`
@@ -144,14 +145,14 @@ collection, and opt out of targeted advertising.
 
 ### Disable background processes
 
-1. In the Origin app, go to Origin > Application Settings
+1. In the Origin app, go to "Origin > Application Settings"
 2. Go to the "Applications" tab
 3. Go to "Start-up options"
 4. Disable "Origin Helper service"
 
 ### Disable data collection
 
-1. In the Origin app, go to Origin > Application Settings
+1. In the Origin app, go to "Origin > Application Settings"
 2. Go to the "Diagnostics" tab
 3. Go to "Help improve Origin"
 4. Disable "Share system interaction data", set "Origin crash reporting" to "Ask before sending" or "Never send", and
@@ -161,7 +162,7 @@ collection, and opt out of targeted advertising.
 
 ### Opt out of targeted advertising
 
-1. In the Origin app, go to Origin > EA Account and Billing...
+1. In the Origin app, go to "Origin > EA Account and Billing..."
 2. On the account settings page, go to "Privacy Settings"
 3. Under "Preferred Data Usage", uncheck "EA In-Game Targeted Advertising" and "EA Targeted Advertising on Third Party
   Websites and Platforms"
@@ -194,7 +195,6 @@ But the issues don't end with usability, or lack there of, and the terrible user
 background service required for it to function called "EABackgroundService", which starts automatically on system
 startup and continues to run in the background all time time, even when not using the app.
 
-
 ### Concerning network traffic
 
 This EABackgroundService service also appears to have an issue where in some cases it can generate [tens or hundreds of
@@ -224,8 +224,20 @@ The current priority is to make this guide available in more languages. If you'r
 README page:
 
 1. Fork the repository
-2. Create a copy of `README.md` with the name `README.<lang>.md` where `<lang>` is the language code, e.g. `README.bg.md`
+
+2. Create a copy of `README.md` with the name `README.<lang>.md`, where `<lang>` is the language code, e.g. `README.bg.md`
+
 3. Translate the page and commit your changes
+
+    Tips:
+
+    - Don't translate code or raw text surrounded by backticks
+    - Don't translate blockquote prefixes like `**Note**`
+    - You don't need to translate user interface text of applications that don't support the language
+    - For clarity, please keep user interface and technical terms untranslated in parentheses after the translated
+      version like this: "\<translated>" (\<original>)
+    - Keep the language list at the top alphabetically sorted by the language code
+
 4. Open a pull request to this repository
 
 
