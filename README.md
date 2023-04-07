@@ -7,6 +7,15 @@
 </p>
 
 
+## Language
+
+- [Български][readme-bg]
+- [English][readme-en]
+
+> **Note**: Ако желаете да помогнете с превода на това ръководство на други езици, отидете на
+> [принос](#принос).
+
+
 ## Table of contents
 
 - [About](#about)
@@ -38,8 +47,6 @@ This guide focuses on providing clear and user-friendly instructions on how to i
 migrating. It is not affiliated with EA in any way.
 
 Migration workaround by [p0358][p0358].
-
-> **Note**: If you would like to help translate this guide in other languages, go to [contributing](#contributing).
 
 
 ## Preparation
@@ -248,6 +255,8 @@ MIT license. See [LICENSE][license] for more information.
 The icon uses modified assets from [Ionicons][ionicons].
 
 
+[readme-bg]: README.bg.md
+[readme-en]: README.md
 [p0358]: https://twitter.com/p0358
 [stop-origin-migration.ps1]: https://raw.githubusercontent.com/alexitx/stop-origin-migration/master/stop-origin-migration.ps1
 [origin-download-external]: https://taskinoz.com/origin
