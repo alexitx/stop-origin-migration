@@ -12,8 +12,7 @@
 - [Български][readme-bg]
 - [English][readme-en]
 
-> **Note**: Ако желаете да помогнете с превода на това ръководство на други езици, отидете на
-> [принос](#принос).
+> **Note**: If you would like to help translate this guide in other languages, go to [contributing](#contributing).
 
 
 ## Table of contents
