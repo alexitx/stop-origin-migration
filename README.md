@@ -206,9 +206,9 @@ startup and continues to run in the background all time time, even when not usin
 This EABackgroundService service also appears to have an issue where in some cases it can generate [tens or hundreds of
 gigabytes of traffic per month][eabs-traffic]. This may be caused due to automatic updates in the background or broken
 data collection and sending mechanism, but in any case this shouldn't happen without the user's permission. It's also
-worth noting that EA's customer support silently closed a ticket about reporting and requesting information for this
-issue, effectively giving users even less reasons to trust the company and its software. This issue was discovered [back
-in 2021][eabs-reddit-1], but it's [still not fixed][eabs-reddit-2].
+worth noting that EA's customer support [silently closed a ticket][eabs-ticket] about reporting and requesting
+information for this issue, effectively giving users even less reasons to trust the company and its software. This issue
+was discovered [back in 2021][eabs-reddit-1], but it's [still not fixed][eabs-reddit-2].
 
 ### Conclusion
 
@@ -261,6 +261,7 @@ The icon uses modified assets from [Ionicons][ionicons].
 [origin-download-external]: https://taskinoz.com/origin
 [origin-download-local]: setup
 [eabs-traffic]: docs/eabackgroundservice-traffic.png
+[eabs-ticket]: docs/eabackgroundservice-ticket.png
 [eabs-reddit-1]: https://redd.it/mcssru
 [eabs-reddit-2]: https://redd.it/11cvrvn
 [license]: LICENSE
